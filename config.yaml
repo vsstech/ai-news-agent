@@ -1,0 +1,196 @@
+# Local Ollama model. Download it first:
+# ollama pull llama3.2
+model: "llama3.2"
+
+# Used by the updated agent.py; harmless if using the original version.
+ollama_url: "http://localhost:11434"
+
+# Start with a seven-day window to confirm collection works.
+# Change to 24 for a daily digest.
+digest_hours: 168
+
+# Maximum articles passed to the summarization model.
+max_articles: 15
+
+output_file: "digests/latest.md"
+
+# Matching is case-insensitive against article titles and RSS excerpts.
+# Any matching keyword includes the article.
+# Higher weights increase its ranking.
+topics:
+  - name: "AI agents and automation"
+    keywords:
+      - "AI agent"
+      - "AI agents"
+      - "agentic"
+      - "autonomous agent"
+      - "multi-agent"
+      - "multiagent"
+      - "agent framework"
+      - "tool calling"
+      - "function calling"
+      - "model context protocol"
+      - "MCP"
+      - "LangGraph"
+      - "AutoGen"
+      - "CrewAI"
+    weight: 3
+
+  - name: "LLMs and model releases"
+    keywords:
+      - "large language model"
+      - "language model"
+      - "LLM"
+      - "foundation model"
+      - "reasoning model"
+      - "OpenAI"
+      - "ChatGPT"
+      - "GPT"
+      - "Anthropic"
+      - "Claude"
+      - "Gemini"
+      - "Llama"
+      - "Mistral"
+      - "DeepSeek"
+      - "Qwen"
+    weight: 3
+
+  - name: "Local and open-source AI"
+    keywords:
+      - "open-source"
+      - "open source"
+      - "open-weight"
+      - "open weight"
+      - "local inference"
+      - "on-device"
+      - "Ollama"
+      - "llama.cpp"
+      - "GGUF"
+      - "quantization"
+      - "Hugging Face"
+      - "small language model"
+    weight: 3
+
+  - name: "RAG and AI data platforms"
+    keywords:
+      - "retrieval-augmented"
+      - "retrieval augmented"
+      - "RAG"
+      - "vector database"
+      - "vector search"
+      - "embedding"
+      - "semantic search"
+      - "knowledge graph"
+      - "AI data platform"
+      - "document retrieval"
+    weight: 2
+
+  - name: "AI engineering and evaluation"
+    keywords:
+      - "LLMOps"
+      - "MLOps"
+      - "evaluation"
+      - "benchmark"
+      - "observability"
+      - "guardrail"
+      - "prompt injection"
+      - "fine-tuning"
+      - "fine tuning"
+      - "inference"
+      - "distillation"
+    weight: 2
+
+  - name: "AI coding tools"
+    keywords:
+      - "coding assistant"
+      - "coding agent"
+      - "AI coding"
+      - "code generation"
+      - "GitHub Copilot"
+      - "Cursor"
+      - "Claude Code"
+      - "Codex"
+      - "software engineering"
+    weight: 2
+
+  - name: "Enterprise AI and products"
+    keywords:
+      - "enterprise AI"
+      - "AI adoption"
+      - "AI deployment"
+      - "AI product"
+      - "AI startup"
+      - "AI platform"
+      - "AI workflow"
+      - "copilot"
+    weight: 2
+
+  - name: "AI policy and safety"
+    keywords:
+      - "AI regulation"
+      - "AI policy"
+      - "AI safety"
+      - "AI governance"
+      - "AI Act"
+      - "responsible AI"
+      - "model safety"
+      - "AI copyright"
+    weight: 1
+
+sources:
+  # ---------------------------------------------------------
+  # Model developers and open-source ecosystem
+  # ---------------------------------------------------------
+  - name: "OpenAI News"
+    url: "https://openai.com/news/rss.xml"
+
+  - name: "Google DeepMind"
+    url: "https://deepmind.google/blog/rss.xml"
+
+  - name: "Google AI"
+    url: "https://blog.google/technology/ai/rss/"
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+
+  # ---------------------------------------------------------
+  # Industry news and enterprise AI
+  # ---------------------------------------------------------
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+
+  - name: "The Verge AI"
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+
+  - name: "Wired AI"
+    url: "https://www.wired.com/feed/tag/ai/latest/rss"
+
+  - name: "MIT Technology Review AI"
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+
+  # ---------------------------------------------------------
+  # Research news and roundups
+  # ---------------------------------------------------------
+  - name: "MIT News - Artificial Intelligence"
+    url: "https://news.mit.edu/rss/topic/artificial-intelligence2"
+
+  - name: "Last Week in AI"
+    url: "https://lastweekin.ai/feed"
+
+  # ---------------------------------------------------------
+  # Optional: research papers
+  #
+  # Uncomment to enable. These can contribute many articles
+  # and compete with news stories for the max_articles limit.
+  # ---------------------------------------------------------
+  # - name: "arXiv - Artificial Intelligence"
+  #   url: "https://rss.arxiv.org/rss/cs.AI"
+
+  # - name: "arXiv - Computation and Language"
+  #   url: "https://rss.arxiv.org/rss/cs.CL"
+
+  # - name: "arXiv - Machine Learning"
+  #   url: "https://rss.arxiv.org/rss/cs.LG"
