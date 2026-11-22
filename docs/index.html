@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AI Daily Digest</title>
+  <meta
+    name="description"
+    content="Your daily AI news digest, organized by topic."
+  >
+  <meta name="theme-color" content="#16324f">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <p class="eyebrow">Your daily AI briefing</p>
+        <h1>AI Daily Digest</h1>
+        <p class="subtitle">
+          Model launches, agents, tools, research, and more.
+        </p>
+      </div>
+
+      <button id="refresh-button" class="button" type="button">
+        Refresh
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="status-panel" aria-label="Digest status">
+      <p id="updated-at">Checking for the latest digest...</p>
+      <p id="connection-status" class="muted"></p>
+    </section>
+
+    <section class="filter-panel" aria-labelledby="topics-heading">
+      <div class="section-heading">
+        <h2 id="topics-heading">Topics</h2>
+        <button id="clear-filters" class="text-button" type="button">
+          Show all
+        </button>
+      </div>
+
+      <p class="muted">
+        Select topics to personalize your feed. No selection shows all topics.
+      </p>
+
+      <div id="topic-filters" class="topic-filters"></div>
+    </section>
+
+    <div class="results-heading">
+      <h2>Latest updates</h2>
+      <p id="result-count" class="muted"></p>
+    </div>
+
+    <p id="message" class="message" role="status" aria-live="polite">
+      Loading your digest...
+    </p>
+
+    <section
+      id="articles"
+      class="article-grid"
+      aria-label="News articles"
+      aria-busy="true"
+    ></section>
+
+    <noscript>
+      <p>This app requires JavaScript to display the digest.</p>
+    </noscript>
+  </main>
+
+  <footer class="container site-footer">
+    <p>
+      AI-generated summaries may contain errors. Check original sources
+      before relying on a report.
+    </p>
+  </footer>
+</body>
+</html>

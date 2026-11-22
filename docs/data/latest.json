@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-11-22T17:18:09+05:30",
+  "digest_date": "2026-11-22",
+  "digest_file": "AI-news-2026-11-22.json",
+  "item_count": 15,
+  "items": [
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices to prevent AI agents from reading users' messages and other data.",
+      "topics": [
+        "AI agents and automation",
+        "LLMs and model releases"
+      ],
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "published_at": "2026-11-20T12:30:47+00:00"
+    },
+    {
+      "id": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "summary": "OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to keep ChatGPT fast.",
+      "topics": [
+        "LLMs and model releases",
+        "AI coding tools"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "published_at": "2026-11-19T08:00:00+00:00"
+    },
+    {
+      "id": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+      "summary": "AI stocks are entering a correction, and Nvidia's Fate is a topic of discussion.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "published_at": "2026-11-21T08:41:43+00:00"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "summary": "Apple may be developing its own AI agent that runs on Macs.",
+      "topics": [
+        "AI agents and automation",
+        "LLMs and model releases"
+      ],
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "published_at": "2026-11-20T00:56:01+00:00"
+    },
+    {
+      "id": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT through summaries and excerpts.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "published_at": "2026-11-18T00:00:00+00:00"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
+      "summary": "OpenAI is working to build trustworthy AI by fencing it in, not predicting it.",
+      "topics": [
+        "AI agents and automation",
+        "LLMs and model releases"
+      ],
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "published_at": "2026-11-16T16:04:28+00:00"
+    },
+    {
+      "id": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary": "LVMH's Media Division and OpenAI announce a partnership to support journalism with AI.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "published_at": "2026-11-16T09:00:00+00:00"
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "OpenAI introduces GPT-6.2 Astra and Sol, with better professional outputs and efficiency.",
+      "topics": [
+        "LLMs and model releases",
+        "AI coding tools"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "published_at": "2026-11-17T17:45:00+00:00"
+    },
+    {
+      "id": "https://openai.com/index/astra-law-6-2",
+      "title": "Astra for Law leads in legal intelligence",
+      "summary": "Astra for Law leads in legal intelligence, and Hebbia sees improvements in financial research with GPT-6 Astra.",
+      "topics": [
+        "LLMs and model releases",
+        "AI engineering and evaluation"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "published_at": "2026-11-17T00:00:00+00:00"
+    },
+    {
+      "id": "https://openai.com/business/customer-stories/hebbia",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "summary": "Hebbia tested GPT-6 Astra for financial research and found gains in source coverage and citation relevance.",
+      "topics": [
+        "LLMs and model releases",
+        "RAG and AI data platforms",
+        "AI engineering and evaluation"
+      ],
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "published_at": "2026-11-20T00:00:00+00:00"
+    },
+    {
+      "id": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "A list of notable AI agents that can live in text messages has been created.",
+      "topics": [
+        "AI agents and automation"
+      ],
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published_at": "2026-11-21T17:00:00+00:00"
+    },
+    {
+      "id": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "title": "Can Anthropic afford to put safety first?",
+      "summary": "Anthropic's IPO and the importance of safety in AI are discussed.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published_at": "2026-11-21T15:00:00+00:00"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "summary": "Anthropic mathematician claims to have solved the Riemann hypothesis with the help of Claude.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published_at": "2026-11-20T16:34:13+00:00"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "summary": "Apple is hiring engineers to build its own AI agent.",
+      "topics": [
+        "AI agents and automation"
+      ],
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "published_at": "2026-11-19T22:31:41+00:00"
+    },
+    {
+      "id": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "summary": "AI helps researchers investigate how thousands of medical studies share code.",
+      "topics": [
+        "LLMs and model releases"
+      ],
+      "source": "MIT News - Artificial Intelligence",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "published_at": "2026-11-19T22:15:00+00:00"
+    }
+  ]
+}
